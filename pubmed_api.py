@@ -74,5 +74,5 @@ if st.button("搜索"):
             st.write(f"**第一作者**: {result['First Author']}")
             st.write(f"**发布日期**: {result['Publication Date']}")
             st.write(f"**期刊名称**: {result['Journal']}")
-            com = result['Journal'] + '.' + result['Publication Date'] + '.' + result['First Author']
+            com = result['Journal'] + '. ' + result['Publication Date'] + '. ' + result['First Author']
             st.write(f"**综合信息**: {com}")
